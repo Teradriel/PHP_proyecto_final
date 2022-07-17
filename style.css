@@ -31,19 +31,19 @@
   bottom: 2rem;
 }
 
-#contact {
+.registro {
   padding: 25px;
   /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
 }
 
-#contact h3 {
+.registro h3 {
   display: block;
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 10px;
 }
 
-#contact h4 {
+.registro h4 {
   margin: 5px 0 15px;
   display: block;
   font-size: 13px;
@@ -58,74 +58,48 @@ label {
   width: 100%;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
+.registro input[type="text"],
+.registro input[type="email"],
+.registro input[type="tel"],
+.registro input[type="url"],
+.registro input[type="password"],
+.registro textarea {
   width: 100%;
   border: 1px solid #ccc;
   margin: 0 0 5px;
   padding: 10px;
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
+.registro input[type="text"]:hover,
+.registro input[type="email"]:hover,
+.registro input[type="tel"]:hover,
+.registro input[type="url"]:hover,
+.registro input[type="password"]:hover,
+.registro textarea:hover {
   transition: border-color 0.3s ease-in-out;
   border: 1px solid #aaa;
 }
 
-#contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
-}
-
-#contact input[type="submit"] {
+.registro input[type="submit"] {
   cursor: pointer;
   width: 50%;
-  border: none;
-  background: #42a8c0;
   color: #fff;
-  margin: 0 0 5px;
+  margin: 0 1px 5px;
   padding: 10px;
   font-size: 15px;
 }
 
-#contact input[type="submit"]:hover {
-  background: #2d7788;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#contact input[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contact input[type="reset"] {
+.registro input[type="reset"] {
   cursor: pointer;
   width: 50%;
-  border: none;
-  background: #42a8c0;
   color: #fff;
-  margin: 0 0 5px;
+  margin: 0 1px 5px;
   padding: 10px;
   font-size: 15px;
 }
 
-#contact input[type="reset"]:hover {
-  background: #2d7788;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#contact input[type="reset"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contact input:focus,
-#contact textarea:focus {
+.registro input:focus,
+.registro textarea:focus {
   outline: 0;
   border: 1px solid #aaa;
 }
@@ -146,9 +120,14 @@ label {
 }
 
 footer {
-  background-color: #14414b;
   background: linear-gradient (right, #14414b, #051013);
   color: aliceblue;
   text-align: center;
   bottom: 2rem;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
